@@ -11,24 +11,24 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: 'Vector',
-    title: 'Vector Editing',
+    altText: 'Fast',
+    title: 'Fast Deliveries',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    altText: 'Secure',
+    title: 'Secure Payment Processing',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Quality',
-    title: 'Quality & Short-period',
+    altText: 'Efficient',
+    title: 'Great Service Quality',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -39,8 +39,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Delivery. Now."
+          title="More than just a service!"
         />
 
         <Grid sx={styles.grid}>

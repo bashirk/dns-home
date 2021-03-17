@@ -58,16 +58,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Experience your ultimate mobile application
+            Start living a hassle-free life!
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+          With DeliveryNow NG, you are rest assured of 
+          a stress-free delivery service. We take care of 
+          your delivery within 30 minutes.
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+              Use the app
             </Button>
             <>
               <ModalVideo
@@ -86,7 +86,7 @@ export default function Banner() {
             </>
           </Flex>
           <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
+            <Text sx={styles.sponsorTitle}>Available on:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>

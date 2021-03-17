@@ -7,9 +7,9 @@ import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Signup Now',
+    name: 'Others',
+    description: 'What you get from other platforms;',
+    buttonText: 'Port now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
@@ -41,10 +41,10 @@ const packages = [
   },
   {
     header: 'Recommended',
-    name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$29.99/',
-    buttonText: 'Signup Now',
+    name: 'DeliveryNow',
+    description: 'What you get from us;',
+    //priceWithUnit: '$29.99/',
+    buttonText: 'Get the app',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,

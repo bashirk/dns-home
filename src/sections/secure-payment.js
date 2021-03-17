@@ -9,7 +9,7 @@ import PaymentPattern from 'assets/payment-pattern.png';
 
 const data = {
   subTitle: 'PAYMENT SECURITY',
-  title: 'Secure Payment Transaction System with #1 Ranking',
+  title: 'Secure Payment Transaction System Through a Secure Wallet System',
   description:
     'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
   btnName: 'Learn More',
