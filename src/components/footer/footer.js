@@ -25,9 +25,9 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
-        <Link path="https://redq.io/" target="_blank">
-          RedQ, Inc
+        All right reserved
+        <Link path="https://deliverynow.com.ng" target="_blank">
+          Bute Systems LTD.
         </Link>
       </Text>
     </footer>

@@ -9,28 +9,21 @@ import Img from 'gatsby-image';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 
-import client1 from 'assets/sponsor/paypal.svg';
-import client2 from 'assets/sponsor/google.svg';
-import client3 from 'assets/sponsor/dropbox.svg';
+import client1 from 'assets/sponsor/paypal.png';
+import client2 from 'assets/sponsor/google.png';
 
 const data = [
   {
     id: 1,
-    path: '#',
+    path: 'https://deliverynow.com.ng',
     image: client1,
-    title: 'paypal',
+    title: 'AppStore',
   },
   {
     id: 2,
-    path: '#',
+    path: 'https://deliverynow.com.ng',
     image: client2,
-    title: 'google',
-  },
-  {
-    id: 3,
-    path: '#',
-    image: client3,
-    title: 'dropbox',
+    title: 'PlayStore',
   },
 ];
 
@@ -67,7 +60,7 @@ export default function Banner() {
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              Use the app
+              Use Web App
             </Button>
             <>
               <ModalVideo

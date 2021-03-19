@@ -3,24 +3,12 @@ export default [
     header: 'About Us',
     items: [
       {
-        path: '/',
-        label: 'Support Center',
+        path: 'https://deliverynow.com.ng/help-faq',
+        label: 'Support',
       },
       {
-        path: '/',
+        path: 'https://mailto:support@deliverynow.com.ng',
         label: 'Customer Support',
-      },
-      {
-        path: '/',
-        label: 'About Us',
-      },
-      {
-        path: '/',
-        label: 'Copyright',
-      },
-      {
-        path: '/',
-        label: 'Popular Campaign',
       },
     ],
   },
@@ -28,15 +16,15 @@ export default [
     header: 'Our Information',
     items: [
       {
-        path: '/',
+        path: 'https://deliverynow.com.ng/terms',
         label: 'Return Policy ',
       },
       {
-        path: '/',
+        path: 'https://deliverynow.com.ng/terms',
         label: 'Privacy Policy',
       },
       {
-        path: '/',
+        path: 'https://deliverynow.com.ng/terms',
         label: 'Terms & Conditions',
       },
       {
@@ -44,7 +32,7 @@ export default [
         label: 'Site Map',
       },
       {
-        path: '/',
+        path: 'https://deliverynow.com.ng/help-faq',
         label: 'Store Hours',
       },
     ],
@@ -53,24 +41,16 @@ export default [
     header: 'My Account',
     items: [
       {
-        path: '/',
+        path: 'mailto:info@deliverynow.com.ng',
         label: 'Press inquiries',
       },
       {
-        path: '/',
-        label: 'Social media ',
+        path: 'https://twitter.com/deliverynowng',
+        label: 'Twitter ',
       },
       {
-        path: '/',
-        label: 'directories',
-      },
-      {
-        path: '/',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '/',
-        label: 'Permissions',
+        path: 'https://facebook.com/deliverynowng',
+        label: 'Facebook',
       },
     ],
   },
@@ -78,20 +58,8 @@ export default [
     header: 'Policy',
     items: [
       {
-        path: '/',
+        path: 'https://deliverynow.com.ng/terms',
         label: 'Application security',
-      },
-      {
-        path: '/',
-        label: 'Software principles',
-      },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
       },
     ],
   },
