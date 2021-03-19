@@ -10,11 +10,11 @@ import Speed from 'assets/key-feature/speed.svg';
 const data = [
   {
     id: 1,
-    imgSrc: Vector,
+    imgSrc: Speed,
     altText: 'Fast',
     title: 'Fast Deliveries',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Our delivery platform takes time and distance into account to ensure your order is assigned to the best possible rider or dispatch agent, for the fastest possible delivery.',
   },
   {
     id: 2,
@@ -22,15 +22,15 @@ const data = [
     altText: 'Secure',
     title: 'Secure Payment Processing',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'There are plenty of payment options on the DeliveryNow platform, and all digital transactions carried out through the platform are secured by NIBSS.',
   },
   {
     id: 3,
-    imgSrc: Speed,
+    imgSrc: Vector,
     altText: 'Efficient',
     title: 'Great Service Quality',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Our delivery platform is the go-to app to deliver whatever you want anywhere you want it. We deliver anything from your favourite stores to your desired location, in minutes!',
   },
 ];
 
@@ -39,7 +39,7 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Delivery. Now."
+          slogan="Delivery. Now. Anywhere"
           title="More than just a service!"
         />
 

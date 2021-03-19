@@ -13,6 +13,6 @@ export default [
   },
   {
     path: 'pricing',
-    label: 'Pricing',
+    label: 'Why Us?',
   },
 ];

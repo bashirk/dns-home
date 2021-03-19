@@ -8,27 +8,17 @@ import { Link } from 'react-scroll';
 import {
   FaFacebookF,
   FaTwitter,
-  FaGithubAlt,
-  FaDribbble,
 } from 'react-icons/fa';
 import menuItems from './header.data';
 
 const social = [
   {
-    path: '/',
+    path: 'https://facebook.com/deliverynowng',
     icon: <FaFacebookF />,
   },
   {
-    path: '/',
+    path: 'https://twitter.com/deliverynowng',
     icon: <FaTwitter />,
-  },
-  {
-    path: '/',
-    icon: <FaGithubAlt />,
-  },
-  {
-    path: '/',
-    icon: <FaDribbble />,
   },
 ];
 

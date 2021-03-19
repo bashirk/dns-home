@@ -66,7 +66,7 @@ export default function Banner() {
               <ModalVideo
                 channel="youtube"
                 isOpen={videoOpen}
-                videoId="ZNA9rmDsYVE"
+                videoId="#"
                 onClose={() => setVideoOpen(false)}
               />
               <Button

@@ -7,24 +7,24 @@ import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
-  subTitle: 'Every Flavour!',
+  subTitle: 'Be the ruler of your world!',
   title: 'Discover local, on-demand delivery from restaurants and grocery stores, and more.',
   features: [
     {
       id: 1,
       imgSrc: Briefcase,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'On-demand Delivery',
+      title: 'On-demand Delivery',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'With our fleet of riders and dispatch agents, you are assured of on-time delivery of your orders.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: 'Self Pickup',
+      title: 'Self Pickup',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Want to skip the line and the delivery fees on your next takeout order? Use the DeliveryNow Self Pickup option.',
     },
   ],
 };

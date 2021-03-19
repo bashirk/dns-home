@@ -22,7 +22,7 @@ export default function IndexPage() {
   return (
     <StickyProvider>
       <Layout>
-        <SEO title="Startup Landing 004" />
+        <SEO title="DeliveryNow Service - DNS" />
         <Banner />
         <KeyFeature />
         <CoreFeature />
