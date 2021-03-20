@@ -22,7 +22,7 @@ const data = [
     altText: 'Secure',
     title: 'Secure Payment Processing',
     text:
-      'There are plenty of payment options on the DeliveryNow platform, and all digital transactions carried out through the platform are secured by NIBSS.',
+      'There are plenty of payment options on the DeliveryNow platform, and all digital transactions carried out through the platform are secured by PCI DSS.',
   },
   {
     id: 3,

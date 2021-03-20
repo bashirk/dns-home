@@ -10,27 +10,29 @@ import ArrowEven from 'assets/arrowEven.png';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Setup your current location to see stores in your city',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Enter your location so that we can show you which stores deliver to you. Your address is important to us as our delivery charge is calculated based on your kilometre radius from whichever store you\'re ordering from.',
+    //'The DeliveryNow platform offers a ton of options, as you can have deliveries from any store in your city. Restaurants and stores are sorted by location, this makes it easier for you to locate your favourite stores easily.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Select and add items to your cart',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Pick a store and select items you’d like to order. You can search by store name, dish name or by any keyword relating to your order.',
+      //'This is a key offering of the DeliveryNow platform, as any store supported by DeliveryNow displays their entire menu through the app, and this would better help you in selecting and customizing your orders to your needs. With DeliveryNow, you are assured to always get your takeout order right.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Checkout by securely paying with Paystack',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Enter your card details on our secure payment system, you can add comments or delivery suggestions. Always make sure that you enter the correct phone number at the point of registration to help us contact you regarding your order.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Track your order',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Now sit back, relax, and we’ll get your food delivered to your doorstep. If needed you can call the agent assigned to your order in case you would like to get order updates on an alternative phone number',
   },
 ];
 
@@ -39,8 +41,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan="How does it work?"
+          title="Let's make your first order in four easy steps!"
           isWhite={true}
         />
 

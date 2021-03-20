@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `DeliveryNow Service`,
+    description: `DeliveryNow Service is the go-to platform for real-time on-demand delivery of your takeout orders.`,
+    author: `Bute Systems`,
   },
   plugins: [
     `gatsby-plugin-theme-ui`,
@@ -29,14 +29,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Montserrat`,
-            variants: [`400`, `500`, `700`],
-          },
+          
+            `limelight`,
+            `source sans pro\:300,400,400i,700`
+          
         ],
+        display: 'swap'
       },
     },
     {

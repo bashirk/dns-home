@@ -5,12 +5,12 @@ import Img from 'gatsby-image';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Become a partner!',
+  title: 'We are always looking for new partners to help us on our mission',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
+    'With the DeliveryNow Service Partner program, you can help in the fulfillment of orders from users within your city. We are interested in people and businesses with a ride or fleet of their own.',
   btnName: 'Get Started',
-  btnURL: '#',
+  btnURL: 'mailto:partnerships@deliverynow.com.ng',
 };
 
 export default function PartnerSection() {

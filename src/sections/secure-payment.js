@@ -9,11 +9,11 @@ import PaymentPattern from 'assets/payment-pattern.png';
 
 const data = {
   subTitle: 'PAYMENT SECURITY',
-  title: 'Secure Payment Transaction System Through a Secure Wallet System',
+  title: 'Secure Digital Transaction Through a Secure Payment System',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
+    'Online payments on the DeliveryNow platform are PCI DSS-secured, meaning that, any payment that goes through our platform is fraud-proof. You can read more by clicking the button below.',
   btnName: 'Learn More',
-  btnURL: '#',
+  btnURL: 'https://pcisecuritystandards.org/document_library',
 };
 
 export default function SecurePayment() {

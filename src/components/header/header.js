@@ -10,6 +10,12 @@ import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
 export default function Header({ className }) {
+
+  var donateStyle = {
+    textDecoration: 'none',
+    color: 'inherit',
+  };
+
   return (
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
@@ -37,7 +43,7 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Get Started"
           >
-            Get Started
+            <a className="donate__btn" href="https://deliverynow.com.ng" target="_blank" rel="noreferrer" style={donateStyle}>Get Started</a>
           </Button>
 
           <MobileDrawer />
@@ -87,10 +93,12 @@ const styles = {
       },
       '.donate__btn': {
         borderColor: 'primary',
+        textDecoration: 'none',
         color: 'primary',
         '&:hover': {
           boxShadow: 'rgba(31, 62, 118, 0.57) 0px 9px 20px -5px',
           backgroundColor: 'primary',
+          textDecoration: 'none',
           color: 'white',
         },
       },

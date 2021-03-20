@@ -7,69 +7,69 @@ import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
-    name: 'Others',
+    name: 'TakeOut Services',
     description: 'What you get from other platforms;',
     buttonText: 'Port now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Access to stores, and item offerings from these stores',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Seamless payment processing for your ordered items',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Real-time updates on your orders',
         isAvailable: true,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Self Pickup option',
         isAvailable: false,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Order delivery within 30 minutes or less',
         isAvailable: false,
       },
     ],
   },
   {
     header: 'Recommended',
-    name: 'DeliveryNow',
+    name: 'DeliveryNow Service',
     description: 'What you get from us;',
     //priceWithUnit: '$29.99/',
     buttonText: 'Get the app',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Access to stores, and item offerings from these stores',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Seamless payment processing for your ordered items',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Real-time updates on your orders',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Self Pickup option',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Order delivery within 30 minutes or less',
         isAvailable: true,
       },
     ],
@@ -80,8 +80,8 @@ export default function Package() {
     <section id="pricing" sx={styles.pricing}>
       <Container>
         <SectionHeader
-          title="Let’s see how it works"
-          slogan="Whats the function"
+          title="Let’s see how DeliveryNow compares"
+          slogan="Why us?"
           isWhite={true}
         />
         <Flex

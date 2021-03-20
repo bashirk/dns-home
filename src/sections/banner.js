@@ -9,25 +9,31 @@ import Img from 'gatsby-image';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 
-import client1 from 'assets/sponsor/paypal.png';
-import client2 from 'assets/sponsor/google.png';
+import client1 from 'assets/sponsor/google.png';
+import client2 from 'assets/sponsor/paypal.png';
 
 const data = [
   {
     id: 1,
-    path: 'https://deliverynow.com.ng',
+    path: 'https://play.google.com/store/apps/details?id=ng.deliverynow.android',
     image: client1,
-    title: 'AppStore',
+    title: 'PlayStore',
   },
   {
     id: 2,
-    path: 'https://deliverynow.com.ng',
+    path: 'https://deliverynow.com.ng/ios',
     image: client2,
-    title: 'PlayStore',
+    title: 'AppStore',
   },
 ];
 
 export default function Banner() {
+
+  var donateStyle = {
+    textDecoration: 'none',
+    color: 'inherit',
+  };
+
   // Graphql image query
   const dataThumb = useStaticQuery(graphql`
     query {
@@ -60,7 +66,7 @@ export default function Banner() {
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              Use Web App
+            <a variant="whiteButton" href="https://deliverynow.com.ng" target="_blank" rel="noreferrer" style={donateStyle}>Use Web App</a>
             </Button>
             <>
               <ModalVideo
@@ -79,7 +85,7 @@ export default function Banner() {
             </>
           </Flex>
           <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Available on:</Text>
+            <Text sx={styles.sponsorTitle}>Also available on:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>

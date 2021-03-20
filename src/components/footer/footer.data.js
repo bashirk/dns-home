@@ -7,7 +7,7 @@ export default [
         label: 'Support',
       },
       {
-        path: 'https://mailto:support@deliverynow.com.ng',
+        path: 'support@deliverynow.com.ng',
         label: 'Customer Support',
       },
     ],
@@ -41,7 +41,7 @@ export default [
     header: 'My Account',
     items: [
       {
-        path: 'mailto:info@deliverynow.com.ng',
+        path: 'info@deliverynow.com.ng',
         label: 'Press inquiries',
       },
       {

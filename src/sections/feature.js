@@ -14,42 +14,42 @@ const data = [
   {
     id: 1,
     imgSrc: Smart,
-    altText: 'Smart',
-    title: 'Smart Features',
+    altText: 'Tracking',
+    title: 'Live Order Tracking',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'A close integration of the Google Maps system into the DeliveryNow platform ensures that you know the exact location of your order at any given time.',
   },
   {
     id: 2,
     imgSrc: Winner,
-    altText: 'Performance',
-    title: 'Fast Performance',
+    altText: 'Pickup',
+    title: 'Self Pickup Option',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'With our Self Pickup option, you are assured of skipping the lines at your favourite store while also skipping delivery fees.',
   },
   {
     id: 3,
     imgSrc: Cloud,
-    altText: 'Content',
-    title: 'Unlimited Content',
+    altText: 'Orders',
+    title: 'Multiple Orders',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'The multiple orders functionality allows you to make any amount of orders you do wish to make, with this, you can make an order for any of your friends at a distant location to yours.',
   },
   {
     id: 4,
     imgSrc: Setting,
     altText: 'Customization',
-    title: 'Unlimited Customization',
+    title: 'Account Customization',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'As the de-facto ruler of your world, you can make numerous customizations on your account as you see fit. Now, that\'s a good reason to use an avatar on your profile',
   },
   {
     id: 5,
     imgSrc: Design,
-    altText: 'Productivity',
-    title: 'Boost Productivity',
+    altText: 'Alerts',
+    title: 'Powerful Alerts System',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'With our in-app alerts and notifications system, you are rest assured of not missing any updates about your order.',
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const data = [
     altText: 'Support',
     title: 'Customer Support',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Need help? Our world-class customer service team is available 24/7. You can get started at: support@deliverynow.com.ng',
   },
 ];
 
@@ -66,8 +66,8 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Freedom meets convenience!"
+          title="DeliveryNow Service is your one-stop spot for convenience"
         />
 
         <Grid sx={styles.grid}>
