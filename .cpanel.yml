@@ -1,0 +1,5 @@
+---
+deployment: 
+     tasks: 
+          - export DEPLOYPATH=/home2/delive18/public_html/deliverynow.ng
+          - /bin/cp -R public/* $DEPLOYPATH
