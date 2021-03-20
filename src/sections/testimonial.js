@@ -13,42 +13,42 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'Great Customer Service',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'I enjoyed an amazing service support from the team, when I had issues during registration',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Akintunde Favour',
+    designation: '@fave234',
     review: 4,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Exceptional Service Delivery',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'The DNS platform is one of a kind, I made a truly hassle-free order today and got delivery within 30 minutes!',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Omowale Ayandiran',
+    designation: '@deeran_',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Effective Customer Support',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'I encountered an issue while setting up my location, contacted support, and got immediate response that resolved my issue',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Daniel Festus',
+    designation: '@festus_dan',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
+    title: 'Seamless Ordering Service',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'I placed my first order today, and got my delivery within 25 minutes! I was truly star-struck!',
     avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Ugochukwu Anthony',
+    designation: '@donanthony',
     review: 4,
   },
 ];
@@ -80,7 +80,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container>
-        <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
+        <SectionHeader slogan="Testimonial" title="See What People Are Saying" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel

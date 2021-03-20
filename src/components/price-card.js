@@ -44,19 +44,7 @@ export default function PriceCard({
           )}
         </Flex>
         <List items={points} childStyle={styles.listItem} />
-        <Box
-          sx={{
-            textAlign: 'center',
-            mt: ['40px', null, null, null, '70px'],
-          }}
-        >
-          <Button
-            variant={header ? 'primary' : 'whiteButton'}
-            aria-label={buttonText}
-          >
-            {buttonText}
-          </Button>
-        </Box>
+        
       </Box>
     </Card>
   );

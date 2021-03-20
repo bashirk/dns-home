@@ -9,7 +9,7 @@ const packages = [
   {
     name: 'TakeOut Services',
     description: 'What you get from other platforms;',
-    buttonText: 'Port now',
+    //buttonText: 'Port now',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
@@ -44,7 +44,7 @@ const packages = [
     name: 'DeliveryNow Service',
     description: 'What you get from us;',
     //priceWithUnit: '$29.99/',
-    buttonText: 'Get the app',
+    //buttonText: 'Get the app',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
