@@ -21,7 +21,7 @@ const data = [
   },
   {
     id: 2,
-    path: 'https://deliverynow.com.ng/ios',
+    path: '/',
     image: client2,
     title: 'AppStore',
   },

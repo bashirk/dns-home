@@ -12,6 +12,10 @@ export default [
     label: 'Testimonial',
   },
   {
+    path: 'team',
+    label: 'Team',
+  },
+  {
     path: 'pricing',
     label: 'Why Us?',
   },

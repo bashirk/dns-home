@@ -64,7 +64,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: 'example.com',
+        cookieDomain: 'deliverynow.ng',
       },
     },
     // {
@@ -76,8 +76,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.example.com',
-        sitemap: 'https://www.example.com/sitemap.xml',
+        host: 'https://deliverynow.ng',
+        sitemap: 'https://deliverynow.ng/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },

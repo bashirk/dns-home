@@ -12,6 +12,7 @@ import TestimonialCard from 'sections/testimonial';
 import SecurePayment from 'sections/secure-payment';
 import Package from 'sections/package';
 import Faq from 'sections/faq';
+import Team from 'sections/team';
 
 // Load other package css file
 import 'react-multi-carousel/lib/styles.css';
@@ -22,7 +23,7 @@ export default function IndexPage() {
   return (
     <StickyProvider>
       <Layout>
-        <SEO title="DeliveryNow Service - DNS" />
+        <SEO title="DNS - Home" />
         <Banner />
         <KeyFeature />
         <CoreFeature />
@@ -31,6 +32,7 @@ export default function IndexPage() {
         <WorkFlow />
         <TestimonialCard />
         <SecurePayment />
+        <Team />
         <Package />
         <Faq />
       </Layout>

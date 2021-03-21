@@ -3,11 +3,11 @@ export default [
     header: 'About Us',
     items: [
       {
-        path: 'https://deliverynow.com.ng/help-faq',
+        path: '/help',
         label: 'Support',
       },
       {
-        path: 'support@deliverynow.com.ng',
+        path: '/cus-support',
         label: 'Customer Support',
       },
     ],
@@ -16,32 +16,32 @@ export default [
     header: 'Our Information',
     items: [
       {
-        path: 'https://deliverynow.com.ng/terms',
+        path: '/return-policy',
         label: 'Return Policy ',
       },
       {
-        path: 'https://deliverynow.com.ng/terms',
+        path: '/privacy-policy',
         label: 'Privacy Policy',
       },
       {
-        path: 'https://deliverynow.com.ng/terms',
+        path: '/terms',
         label: 'Terms & Conditions',
       },
       {
-        path: '/',
+        path: '/sitemap.xml',
         label: 'Site Map',
       },
       {
-        path: 'https://deliverynow.com.ng/help-faq',
+        path: '/store-hours',
         label: 'Store Hours',
       },
     ],
   },
   {
-    header: 'My Account',
+    header: 'Contact Us',
     items: [
       {
-        path: 'info@deliverynow.com.ng',
+        path: '/press',
         label: 'Press inquiries',
       },
       {
@@ -58,7 +58,7 @@ export default [
     header: 'Policy',
     items: [
       {
-        path: 'https://deliverynow.com.ng/terms',
+        path: '/security',
         label: 'Application security',
       },
     ],

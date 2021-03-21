@@ -26,7 +26,7 @@ export default function Footer() {
       </Container>
       <Text sx={styles.footer.copyright}>
         &copy; 2021
-        <Link path="https://deliverynow.com.ng" target="_blank">
+        <Link path="/">
          Bute Systems LTD.
         </Link>
       </Text>
